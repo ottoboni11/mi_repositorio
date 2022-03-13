@@ -301,4 +301,37 @@ footer ul{
         background: #49978e;
         animation-name: anim1;
         animation-duration: 4s;
+        position: relative;
+        top: 80px;
+        animation-direction: reverse;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
     }
+
+@keyframes anim1{
+    0%{
+        background: #49978e;
+        left: 0;
+        top: 80px;
+    }
+    25%{
+        background: #12e4cb;
+        left: 200px;
+        top: 80px;
+    }
+    50%{
+        background: #099de2;
+        left: 200px;
+        top: 280px;
+    }
+    75%{
+        background: #0370ff;
+        left: 0px;
+        top: 280px;
+    }
+    100%{
+        background: #082bca;
+        left: 0px;
+        top: 80px;
+    }
+}
