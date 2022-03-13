@@ -294,3 +294,11 @@ footer ul{
     }
 
 }
+
+    #animacion{
+        width: 150px;
+        height: 150px;
+        background: #49978e;
+        animation-name: anim1;
+        animation-duration: 4s;
+    }
