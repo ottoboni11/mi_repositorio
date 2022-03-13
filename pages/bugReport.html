@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilosCss/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <p class="logo">Titulo de prueba!</p>
+            <nav>
+                <a href="../index.html" class="nav__a">Home</a>
+                <a href="./aboutMe.html" class="nav__a">Sobre mi</a>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="divtittle__bugform">
+            <h2 class="form__h2">Formulario de <span class="color-me">reporte</span> de <span class="color-me">errores</span></h2>
+            <p class="form__p--bug"> Gracias por ayudarnos a mejorar </p>
+        </div>
+        <form id="survey-form">
+            <div class="form-cont">
+                <br>
+                <div>
+                    <label for="dropdown" id="model">Seleccione el tipo de error</label>
+                    <select id="dropdown" class="form-inputs">
+                        <option value="1"> ....</option>
+                        <option value="2"> ....</option>  
+                        <option value="3"> ....</option>
+                        <option value="4"> ....</option>
+                    </select>
+                </div>
+                <br>
+                <br>  
+                <div>
+                    <label for="dropdown" id="model">Donde se encuentra el error</label>
+                    <select id="dropdown" class="form-inputs">
+                        <option value="5"> ....</option>
+                        <option value="6"> ....</option>  
+                        <option value="7"> ....</option>
+                        <option value="8"> ....</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label id="textarea"> Si no encontro una opcion adecuada, especifiquenos aqui.</label>
+                    <br>
+                    <textarea id="textarea" name="instructions" rows="10" cols="30">
+                    </textarea>
+                </div>
+                <br>
+                <b>
+                    <input id="submit" type="submit"value=" Enviar" class="submit-button"> 
+                </b>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__contactos">
+                <ul>Contactos
+                    <li class="footer__contactos--links"><a href="./contact.html" class="contactos__links">Formulario de contacto</a></li>
+                    <li class="footer__contactos--links"><a href="./bugReport.html" class="contactos__links">Reporte de errores</a></li>
+                    <li class="footer__contactos--links"><a href="./work.html" class="contactos__links">Trabajar con nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer__redes">
+                <ul>Redes sociales
+                    <li class="footer__redes--links">Instagram</li>
+                    <li class="footer__redes--links">Facebook</li>
+                    <li class="footer__redes--links">Twitter</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

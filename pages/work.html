@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Lautaro Ottoboni</title>
+    <link rel="stylesheet" href="../estilosCss/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <p class="logo">Titulo de prueba!</p>
+            <nav>
+                <a href="../index.html" class="nav__a">Home</a>
+                <a href="./aboutMe.html" class="nav__a">Sobre mi</a>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="divtittle__contactform">
+            <h2 class="form__h2"><span class="color-me">Trabaja</span> con <span class="color-me">nosotros</span></h2>
+            <p id="description"> Gracias por contactarse con nosotros </p>
+        </div>
+        <form id="survey-form">
+            <div class="form-cont">
+                <div class="nombre_edad">
+                    <label for="name" id="name-label"> Nombre </label>
+                    <input id="name" type="text" name="name" placeholder="Nombre y apellido" class="form-inputs" required></input>
+                    <br>
+                    <label for="age" id="age-label"> Edad </label>
+                    <input id="age" type="number" name="age" placeholder="Edad" class="form-inputs" required></input>
+                </div>
+                <br>
+                <label for="email" id="email-label"> Email </label>
+                <input id="email" type="email" name="email" placeholder="Enter your Email" class="form-inputs" required></input>
+                <br>
+                <label for="dropdown" id="model">Rol que desemplea o desea.</label>
+                <select id="dropdown" class="form-inputs">
+                    <option value="1"> ....</option>
+                    <option value="2"> ....</option>  
+                    <option value="3"> ....</option>
+                    <option value="4"> ....</option>
+                </select>
+                <br>
+                <br> 
+                <label id="textarea"> Comentarios adicionales.</label>
+                <br>
+                <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+                <br>
+                <div>
+                    <p>Adjuntar curriculum</p>
+                    <div>
+                        <p><b>Opcion A:</b></p>
+                        <label for="cvA" id="cvA-label"> Comparti tu link de drive o... </label>
+                        <input id="cvA" type="text" name="cv" placeholder="Link público" class="form-inputs"></input>
+                    </div>
+                    <div>
+                        <p><b>Opcion B:</b></p>
+                        <p>Archivos soportados...</p>
+                        <button>Seleccionar</button>
+                    </div>
+                </div>
+                <br>
+                <b>
+                    <input id="submit" type="submit"value=" Enviar" class="submit-button"> 
+                </b>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__contactos">
+                <ul>Contactos
+                    <li class="footer__contactos--links"><a href="./contact.html" class="contactos__links">Formulario de contacto</a></li>
+                    <li class="footer__contactos--links"><a href="./bugReport.html" class="contactos__links">Reporte de errores</a></li>
+                    <li class="footer__contactos--links"><a href="./work.html" class="contactos__links">Trabajar con nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer__redes">
+                <ul>Redes sociales
+                    <li class="footer__redes--links">Instagram</li>
+                    <li class="footer__redes--links">Facebook</li>
+                    <li class="footer__redes--links">Twitter</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
