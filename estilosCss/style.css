@@ -43,10 +43,15 @@ button{
     box-shadow: 2px 2px 7px rgba(0,0,0,.5);
     background-color: rgb(14, 187, 172);
     color: white;
+    cursor: pointer;
+    transition: .2s ease all;
+    position: relative;
+
 }
 
 button:hover{
-    background-color: rgb(10, 134, 93);
+    background: #007466;
+    transition: .2s ease all;
 }
 
 .container{
